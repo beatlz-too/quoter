@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Stock Quoter",
+  "version": "1.0",
+  "description": "Chrome extension for stock quotes",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://finance.yahoo.com/quote/*"],
+      "js": ["index.js"]
+    }
+  ]
+} 

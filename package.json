@@ -1,0 +1,23 @@
+{
+  "name": "quoter",
+  "version": "1.0.0",
+  "description": "Chrome extension for stock quotes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "eslint . --fix && tsc",
+    "watch": "tsc --watch",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.260",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.21.0",
+    "typescript": "^5.3.3"
+  }
+}

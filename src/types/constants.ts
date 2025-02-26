@@ -1,0 +1,1 @@
+export const TICKER_QUOTE_INTERVAL = 60000
