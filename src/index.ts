@@ -11,5 +11,7 @@ import { getTickerQuote } from "./utilities/getTickerQuote";
 
   setInterval(() => {
     const quote = getTickerQuote()
+
+    console.log(quote)
   }, TICKER_QUOTE_INTERVAL)
 })()
